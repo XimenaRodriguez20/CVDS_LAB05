@@ -7,3 +7,6 @@ para crear el mvn en el cmd
 pruebas
 ![image](https://user-images.githubusercontent.com/123812926/224491506-6cc3ff3f-9bf5-452b-8840-c9cf72411867.png)
 ![image](https://user-images.githubusercontent.com/123812926/224491495-8f4f08a5-b656-437b-b5f0-2a3a833dabc2.png)
+
+links de mvn
+https://maven.apache.org/archetypes/maven-archetype-webapp/
