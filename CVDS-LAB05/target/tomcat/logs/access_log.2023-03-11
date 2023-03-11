@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [11/Mar/2023:09:38:41 -0500] "GET /helloServlet HTTP/1.1" 200 16 http-bio-8080-exec-1 27
+0:0:0:0:0:0:0:1 - - [11/Mar/2023:09:38:41 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [11/Mar/2023:09:38:59 -0500] "GET /helloServlet?name=Ximena HTTP/1.1" 200 22 http-bio-8080-exec-4 1
