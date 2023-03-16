@@ -10,6 +10,8 @@ disponible en un repositorio Maven local.
 
 I. Para esto,cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp y realice lo siguiente:
 
+Los servlets, que se ejecutan en un servidor web habilitado para Java, amplían las funciones de un servidor web.
+
 arquetipo mvn : generar - DarchetypeGroupId = org . apache _ experto _ arquetipos - DarchetypeArtifactId = maven - arquetipo - aplicación web - DarchetypeVersion = 1.4
 
 se deberia ver de la siguiente manera:
@@ -23,10 +25,18 @@ Luego tendremos que anotar lo siguiente:
 " version " : 1.0-SNAPSHOT
 " package " : edu.eci.cvds.servlet
 
-una ves anotado eso damos "ENTER"  y se vera de la siguiente manera:
+una ves anotado eso, damos "ENTER". Se vera lo siguiente:
 
 ![image](https://user-images.githubusercontent.com/123812926/224491155-7baf1902-26b1-49cb-b0a3-e7774ecffdbf.png)
 
+2. En el pom.xml, modifique la propiedad "packaging" con el valor "war". Agregue la siguiente dependencia:
+
+<dependency>
+<groupId>javax</groupId>
+<artifactId>javaee-web-api</artifactId>
+<version>7.0</version>
+<scope>provided</scope>
+</dependency>
 
 pruebas
 ![image](https://user-images.githubusercontent.com/123812926/224491506-6cc3ff3f-9bf5-452b-8840-c9cf72411867.png)
