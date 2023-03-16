@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @WebServlet(urlPatterns = "/helloServlet")
-public class HttpServlet extends HttpServlet{
+public class Servlet2 extends HttpServlet{
     static final long serialVersionUID = 35L;
 
     @Override
