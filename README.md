@@ -61,5 +61,29 @@ un parámetro GET (si no sabe como hacerlo, revise la documentación en http://w
 
 ![image](https://user-images.githubusercontent.com/123812926/224491495-8f4f08a5-b656-437b-b5f0-2a3a833dabc2.png)
 
+7. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.
+
+<dependency>
+ <groupId>com.google.code.gson</groupId>
+ <artifactId>gson</artifactId>
+ <version>2.10.1</version>
+</dependency>
+
+![image](https://user-images.githubusercontent.com/123812926/225692976-ba1325a5-4f30-4329-8198-b20d001119f3.png)
+
+8. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+
+La pagina web se ve de esta manera:
+
+![image](https://user-images.githubusercontent.com/123812926/225693255-e1c084b4-29c2-4bd2-9f52-bba3dfd3c9d7.png)
+
+El numero que le asignamos es 5
+
+![image](https://user-images.githubusercontent.com/123812926/225693521-48f90147-6530-4804-ad75-a0dc06b4d1bf.png)
+
+9. Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los
+métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.
+
+
 links de mvn
 https://maven.apache.org/archetypes/maven-archetype-webapp/
