@@ -84,6 +84,15 @@ El numero que le asignamos es 5
 9. Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los
 métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.
 
+![image](https://user-images.githubusercontent.com/123812926/225700281-e5463b83-3061-4b29-af9f-5d66aefed541.png)
+
+10. Utilice la siguiente clase para consumir el servicio que se encuentra en la dirección url del punto anterior:
+
+![image](https://user-images.githubusercontent.com/123812926/225700485-8daa7c60-dfc1-4dcf-a5ec-5da182977aab.png)
+
+11. Cree una clase que herede de la clase HttpServlet (similar a SampleServlet), y para la misma sobrescriba el método heredado doGet. Incluya la
+anotación @Override para verificar –en tiempo de compilación- que efectivamente se esté sobreescribiendo un método de las superclases.
+
 
 links de mvn
 https://maven.apache.org/archetypes/maven-archetype-webapp/
