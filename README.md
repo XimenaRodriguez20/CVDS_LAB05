@@ -93,6 +93,19 @@ métodos getter y setter para las propiedades de los "To Dos" que se encuentran 
 11. Cree una clase que herede de la clase HttpServlet (similar a SampleServlet), y para la misma sobrescriba el método heredado doGet. Incluya la
 anotación @Override para verificar –en tiempo de compilación- que efectivamente se esté sobreescribiendo un método de las superclases.
 
+12. Para indicar en qué URL el servlet interceptará las peticiones GET, agregue al método la anotación @WebServlet, y en dicha anotación, defina la
+propiedad urlPatterns, indicando la URL (que usted defina) a la cual se asociará el servlet.
+
+13. Teniendo en cuenta las siguientes métodos disponibles en los objetos ServletRequest y ServletResponse recibidos por el método doGet
+
+![image](https://user-images.githubusercontent.com/123812969/226067156-e0921071-12fb-4298-ac9e-9ad4cc8b91a3.png)
+
+15. Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.
+
+
+
+
+
 
 links de mvn
 https://maven.apache.org/archetypes/maven-archetype-webapp/
