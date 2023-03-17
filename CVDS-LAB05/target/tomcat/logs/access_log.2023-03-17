@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:00:59:24 -0500] "GET /helloServlet HTTP/1.1" 200 16 http-bio-8080-exec-1 58
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:00:59:24 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 7
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:00:59:34 -0500] "GET /mundoTaco HTTP/1.1" 400 67 http-bio-8080-exec-4 26
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:00:59:45 -0500] "GET /mundoTaco?id=3 HTTP/1.1" 200 165 http-bio-8080-exec-2 786
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:00:59:54 -0500] "GET /mundoTaco?id=-8 HTTP/1.1" 404 109 http-bio-8080-exec-6 274
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:01:00:16 -0500] "GET /mundoTaco?id=10000 HTTP/1.1" 404 112 http-bio-8080-exec-7 253
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:01:00:23 -0500] "GET /mundoTaco?id=f HTTP/1.1" 400 84 http-bio-8080-exec-8 23
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:08:18:26 -0500] "GET /index.html HTTP/1.1" 200 437 http-bio-8080-exec-1 43
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:08:18:31 -0500] "GET /GivemeSomething?id= HTTP/1.1" 404 981 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:08:18:41 -0500] "GET /GivemeSomething?id=15 HTTP/1.1" 404 981 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:08:18:59 -0500] "GET /GivemeSomething?id=2 HTTP/1.1" 404 981 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:08:20:23 -0500] "GET /index.html HTTP/1.1" 200 412 http-bio-8080-exec-2 52
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:08:20:27 -0500] "GET /mundoTaco?id=5 HTTP/1.1" 200 209 http-bio-8080-exec-3 832
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:08:21:47 -0500] "GET /mundoTaco?id=60 HTTP/1.1" 200 181 http-bio-8080-exec-2 777
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:08:21:58 -0500] "GET /mundoTaco?id= HTTP/1.1" 400 83 http-bio-8080-exec-3 20
