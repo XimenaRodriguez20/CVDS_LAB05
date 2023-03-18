@@ -267,8 +267,4 @@ de la aplicación, en el archivo web.xml.
 
 ![image](https://user-images.githubusercontent.com/123812969/226081891-de1509d4-05ca-49f6-a23a-bbef1f7a9134.png)
 
-4. Ahora, va a crear un Backing-Bean de sesión, el cual, para cada usuario.
 
-
-links de mvn
-https://maven.apache.org/archetypes/maven-archetype-webapp/
