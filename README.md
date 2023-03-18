@@ -102,6 +102,25 @@ propiedad urlPatterns, indicando la URL (que usted defina) a la cual se asociar�
 
 15. Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.
 
+![image](https://user-images.githubusercontent.com/123812969/226073513-a960903f-495a-4bb8-aba2-17a288b10ded.png)
+
+![image](https://user-images.githubusercontent.com/123812969/226073589-cda8ada6-ea51-4426-8f53-6e1df53c0eb7.png)
+
+PARTE III.
+
+16. En su servlet, sobreescriba el método doPost, y haga la misma implementación del doGet.
+
+![image](https://user-images.githubusercontent.com/123812969/226068771-0ac8e136-1fe1-4edf-bb9b-3966443c88ff.png)
+
+17. Cree el archivo index.html en el directorio src/main/webapp/index.html 
+
+![image](https://user-images.githubusercontent.com/123812969/226068923-2539d2ed-e0c4-4749-9ebf-df9a472b3015.png)
+
+18. En la página anterior, cree un formulario que tenga un campo para ingresar un número (si no ha manejado html antes, revise
+http://www.w3schools.com/html/ ) y un botón. El formulario debe usar como método ‘POST’, y como acción, la ruta relativa del último servlet creado
+(es decir la URL pero excluyendo ‘http://localhost:8080/’).
+
+![image](https://user-images.githubusercontent.com/123812969/226074331-a3d67acd-cb74-4001-bdf6-0e522f0d9fb8.png)
 
 
 
