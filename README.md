@@ -159,7 +159,8 @@ se reduce en $10.000.
 1. Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl,
 javax.servlet.jstl y Primefaces (en el archivo pom.xml).
 
-<dependency>
+    </dependencies>
+    <dependency>
       <groupId>javax</groupId>
       <artifactId>javaee-api</artifactId>
       <version>8.0.1</version>
@@ -193,7 +194,7 @@ javax.servlet.jstl y Primefaces (en el archivo pom.xml).
       <artifactId>primefaces</artifactId>
       <version>5.2</version>
     </dependency>
-  </dependencies>
+    </dependencies>
 
 
 links de mvn
