@@ -1,6 +1,69 @@
 # CVDS_LAB0555
+INTEGRANTES: Ximena Alejandra Rodriguez Salamanca, Jordy Santiago Bautista Sepulveda.
 
 PARTE I. - JUGANDO A SER UNCLIENTEHTTP
+
+1. Abra una terminal Linux o consola de comandos Windows.
+2. Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
+
+Host: www.escuelaing.edu.co
+Puerto: 80
+Teniendo en cuenta los parámetros del comando telnet:
+telnet HOST PORT
+
+3. Antes de que el servidor cierre la conexión por falta de comunicación:
+Revise la página 36 del RFC del protocolo HTTP, sobre cómo realizar una petición GET. Con esto, solicite al servidor el recurso ‘sssss/abc.html’,
+usando la versión 1.0 de HTTP.
+
+Asegúrese de presionar ENTER dos veces después de ingresar el comando.
+
+Revise el resultado obtenido. ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
+¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
+
+![WhatsApp Image 2023-03-18 at 00 32 25](https://user-images.githubusercontent.com/123812969/226087329-e79d0029-64c9-4b08-b59e-a6fe4fb1bdf9.jpeg)
+
+El codigo de erro que nos aparece es un 400, lo cual significa que es unaa solicitud que contiene una sintaxis incorrecta o no se puede cumplir. Toca tener claro que este error es producido por el cliente.
+
+![image](https://user-images.githubusercontent.com/123812969/226087420-95c4a0f7-89ba-436d-a951-189f0fa3b0fb.png)
+
+4. Realice una nueva conexión con telnet, esta vez a:
+
+Host: www.httpbin.org
+Puerto: 80
+Versión HTTP: 1.1
+Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
+
+![WhatsApp Image 2023-03-18 at 00 32 46](https://user-images.githubusercontent.com/123812969/226087502-480f86fe-505a-4956-8317-0daa7dbd145c.jpeg)
+
+5. Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la
+opción -c para contar el número de caracteres.
+
+![WhatsApp Image 2023-03-18 at 00 32 59](https://user-images.githubusercontent.com/123812969/226087553-6b6f4f45-65b1-4e8f-b0ff-43bff4f167e6.jpeg)
+
+Claro está, las peticiones GET son insuficientes en muchos casos. Investigue: ¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de
+peticiones existen?
+
+ La diferencia entre get y post radica en el envio de datos, cuando utilizamos el metodo get envia los datos usando una url, mientras que el metodo post los envía de forma que no podemos verlos.
+ 
+ Otros tipos de verbos:
+ 
+ ![image](https://user-images.githubusercontent.com/123812969/226088090-69fd37ed-2528-4a54-adb0-197a561a30db.png)
+
+
+6. En la practica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl
+
+![WhatsApp Image 2023-03-18 at 00 33 17](https://user-images.githubusercontent.com/123812969/226087580-213d1827-9430-4a3b-99f8-06d6ee11f2ba.jpeg)
+
+Utilice ahora el parámetro -v y con el parámetro -i
+
+![WhatsApp Image 2023-03-18 at 00 33 26](https://user-images.githubusercontent.com/123812969/226087593-408edcc4-3c5c-4cd8-9a6d-7964ae473586.jpeg)
+
+![WhatsApp Image 2023-03-18 at 00 33 36](https://user-images.githubusercontent.com/123812969/226087598-e716a82a-1548-4231-ad98-c1b072449b98.jpeg)
+
+¿Cuáles son las diferencias con los diferentes parámetros?
+
+* El comando curl -v entrega resultados mucho mas detallados
+* El comando curl -i entrega el encabezado, es decir incluye cosas como de donde sale la informacion (url), host.
 
 ## PARTE II. -HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
