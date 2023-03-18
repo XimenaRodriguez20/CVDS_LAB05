@@ -159,7 +159,41 @@ se reduce en $10.000.
 1. Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl,
 javax.servlet.jstl y Primefaces (en el archivo pom.xml).
 
+<dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>8.0.1</version>
+      <scope>provided</scope>
+    </dependency>
 
+    <!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-api -->
+    <dependency>
+      <groupId>com.sun.faces</groupId>
+      <artifactId>jsf-api</artifactId>
+      <version>2.2.20</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-impl -->
+    <dependency>
+      <groupId>com.sun.faces</groupId>
+      <artifactId>jsf-impl</artifactId>
+      <version>2.2.20</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.primefaces</groupId>
+      <artifactId>primefaces</artifactId>
+      <version>5.2</version>
+    </dependency>
+  </dependencies>
 
 
 links de mvn
