@@ -159,6 +159,7 @@ se reduce en $10.000.
 1. Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl,
 javax.servlet.jstl y Primefaces (en el archivo pom.xml).
 
+```
 </dependencies>
 <dependency>
   <groupId>javax</groupId>
@@ -195,7 +196,7 @@ javax.servlet.jstl y Primefaces (en el archivo pom.xml).
   <version>5.2</version>
 </dependency>
 </dependencies>
-
+```
 
 links de mvn
 https://maven.apache.org/archetypes/maven-archetype-webapp/
