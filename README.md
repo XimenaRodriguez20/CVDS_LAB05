@@ -212,6 +212,8 @@ GET
 
 ![image](https://user-images.githubusercontent.com/123812969/226079401-a1b5dd15-b517-4f1d-9500-6c978ad137f6.png)
 
+_Las diferencias que pudimos notar es que en la url para el caso de get nos muestra los valores numericos que el usuario escriba, mientras que en el post no pasa esto sino por el contrario estos valores estan ocultos._
+
 PARTE IV. - FRAMEWORKS WEB MVC – JAVA SERVER FACES /
 PRIME FACES
 
