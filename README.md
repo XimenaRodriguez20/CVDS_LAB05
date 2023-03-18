@@ -130,9 +130,34 @@ browser se valide que el valor ingresado es un valor numérico.
 20. Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada.
 Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
 
-![image](https://user-images.githubusercontent.com/123812969/226078182-8cab8499-1bea-472a-8086-aac68344bbb7.png)
 
+21. ¿Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno.
 
+POST
+
+![image](https://user-images.githubusercontent.com/123812969/226079840-74ede1b1-a5f3-4cd6-932a-8b814b96b143.png)
+
+![image](https://user-images.githubusercontent.com/123812969/226079909-ea7b2b1e-1584-497b-b5db-ff7de219652c.png)
+
+para comprobar que si validamos que solo valga datos de tipo numerico
+
+![image](https://user-images.githubusercontent.com/123812969/226080519-777bff9c-d15d-47a2-b682-b90af29e12f3.png)
+
+GET
+
+![image](https://user-images.githubusercontent.com/123812969/226079371-5ba30e23-1099-4aad-ac5c-65a156f12cff.png)
+
+![image](https://user-images.githubusercontent.com/123812969/226079401-a1b5dd15-b517-4f1d-9500-6c978ad137f6.png)
+
+PARTE IV. - FRAMEWORKS WEB MVC – JAVA SERVER FACES /
+PRIME FACES
+
+En este ejercicio, usted va a desarrollar una aplicación Web basada en el marco JSF, y en una de sus implementaciones más usadas: PrimeFaces. Se trata de un
+juego en línea para adivinar un número, en el que el ganador, si atina en la primera oportunidad, recibe $100.000. Luego, por cada intento fallido, el premio
+se reduce en $10.000.
+
+1. Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl,
+javax.servlet.jstl y Primefaces (en el archivo pom.xml).
 
 
 
