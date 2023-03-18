@@ -16,6 +16,7 @@ import edu.eci.cvds.servlet.model.Todo;
 @WebServlet(urlPatterns = "/mundoTaco")
 public class Servlet2 extends HttpServlet {
     static final long serialVersionUID = 35L;
+    ArrayList<Todo> todosList = new ArrayList<Todo>();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -23,7 +24,6 @@ public class Servlet2 extends HttpServlet {
         try {
             int idNumber = Integer.valueOf(req.getParameter("id"));
             Todo todo = Service.getTodo(idNumber);
-            ArrayList<Todo> todosList = new ArrayList<Todo>();
             todosList.add(todo);
             resp.setStatus(HttpServletResponse.SC_OK);
             String mensajeTodos = Service.todosToHTMLTable(todosList);
@@ -31,7 +31,6 @@ public class Servlet2 extends HttpServlet {
             responseWriter.flush();
             resp.setContentType("text/html");
         } catch (Exception e) {
-            e.printStackTrace();
             if (e instanceof FileNotFoundException) {
                 resp.setStatus(HttpServletResponse.SC_NOT_FOUND);
                 responseWriter.write("Numero de error: " + resp.getStatus() + "\n Localizacion: "
