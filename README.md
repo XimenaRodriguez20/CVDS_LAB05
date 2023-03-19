@@ -269,4 +269,13 @@ de la aplicación, en el archivo web.xml.
 
 ![image](https://user-images.githubusercontent.com/123812969/226081891-de1509d4-05ca-49f6-a23a-bbef1f7a9134.png)
 
+4. Ahora, va a crear un Backing-Bean de sesión, elcual, para cada usuario, mantendrá de lado delservidor lassiguientes propiedades: a. El
+número que actualmente debe adivinar (debe ser un número aleatorio).
 
+![image](https://user-images.githubusercontent.com/123812926/226153744-40543e0a-e827-4857-b364-1a055b0452b9.png)
+
+5. 6. 7. 8. Siguiendo las instruciones de estos puntos es archivo guess.xhtml queda de la suiduiente forma: 
+
+![image](https://user-images.githubusercontent.com/123812926/226153790-516cdfe5-a276-441b-b25c-6a3a35c85846.png)
+
+9. Los comandos ´´´mvn package´´´´ y  ```mvn tomcat7:run``` deberian correr con normalidad
