@@ -281,14 +281,21 @@ número que actualmente debe adivinar (debe ser un número aleatorio).
 9. Los comandos ```mvn package``` y  ```mvn tomcat7:run``` deberian correr con normalidad
 
 11. Hora se prueba el juego en la pagina web en la siguiente URL http://localhost:8080/faces/guess.xhtml
-        a. Prueba en navegador: valores 5, 5, 1, 10, 18
-![image](https://user-images.githubusercontent.com/123812926/226154203-4720f27e-68a3-4af1-8753-5b2b01675ab1.png)
-        Prueba en el modo incognito: 9
+
+   a. Prueba en navegador: valores 5, 5, 1, 10, 18                                    Prueba en el modo incognito: 9
+        
+![image](https://user-images.githubusercontent.com/123812926/226156147-09fd0cf0-c5d4-41f1-a4f6-bf9338a50c67.png)
 ![image](https://user-images.githubusercontent.com/123812926/226154275-b327d660-59f4-4305-bcda-ec9995c8bfa0.png)
-        b. cambio de ```@SessionScoped``` a ```@ApplicationScoped``` y vuelvo a correr la aplicacion 
+        
+   b. cambio de ```@SessionScoped``` a ```@ApplicationScoped``` y vuelvo a correr la aplicacion 
+   
 ![image](https://user-images.githubusercontent.com/123812926/226155549-fea46d3d-1c51-4113-94eb-61f35b1f3bcd.png)
-        Ahora los valores del premio coiciden, pues al fallar en la pagina web se restan 10000 y si se vuelve a jugar en la pagina en incognito al fallar vamos a ver que se restan 20000, sin embargo esto no es asi, solamente se restaron 10000, esto se debe a que los datos son compartidos.
-        ![image](https://user-images.githubusercontent.com/123812926/226155807-bc4e5564-d208-4836-84ce-87fef655c616.png)
-        ![image](https://user-images.githubusercontent.com/123812926/226155817-e031af93-3e2a-48ad-91ca-b82cad8d1c6c.png)
-        c. Verificamos el codigo con el modo desarrollador:
-        ![image](https://user-images.githubusercontent.com/123812926/226155881-f42ccec8-13a3-4a45-8d0c-b0708e82b878.png)
+
+- Ahora los valores del premio coiciden, pues al fallar en la pagina web se restan 10000 y si se vuelve a jugar en la pagina en incognito al fallar vamos a ver que se restan 20000, sin embargo esto no es asi, solamente se restaron 10000, esto se debe a que los datos son compartidos.
+
+![image](https://user-images.githubusercontent.com/123812926/226155807-bc4e5564-d208-4836-84ce-87fef655c616.png)
+![image](https://user-images.githubusercontent.com/123812926/226155817-e031af93-3e2a-48ad-91ca-b82cad8d1c6c.png)
+
+c. Verificamos el codigo con el modo desarrollador:
+
+![image](https://user-images.githubusercontent.com/123812926/226155881-f42ccec8-13a3-4a45-8d0c-b0708e82b878.png)
